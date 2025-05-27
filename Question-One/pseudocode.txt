@@ -1,0 +1,8 @@
+Question1 
+Build a system to keep track of personal connections and their contact details. the system should allow users to add new contacts , modify existing ones, remove contacts, and retrieve a contact's details without specifying how to store the contacts.
+
+First we create  list of objects that contains the contact details
+then we create the first functions that accepts a parameter that is a new contact and adds the contact to the exist contact details
+then we create the second functions that takes a parameter which is the modifides one and the new contact then it checks the modified one exists in the contact details if it exists it modifys the old contact with the new contact detail
+then we create the third function that takes a contact that we want to delete and checks if it exists and it deletes the contact from contact details
+the last function it prints the contact details   
